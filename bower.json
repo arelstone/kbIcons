@@ -3,9 +3,14 @@
   "authors": [
     "Carsten Daurehøj <cd@eoptimo.com>"
   ],
+  "version": "1.0.0",
   "description": "Iconfont package for eoptimo's kickback power calculation platform",
   "main": "",
   "license": "MIT",
-  "keywords": ["Iconfont", "Font", "Icons", "SVG"]
-  "homepage": "https://github.com/arelstone/kbIcons"
+  "keywords": ["Iconfont", "Font", "Icons", "SVG"],
+  "homepage": "https://github.com/arelstone/kbIcons",
+  "repository": {
+  "type": "git",
+  "url": "git://github.com/arelstone/kbIcons.git"
+}
 }
