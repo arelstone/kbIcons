@@ -1,0 +1,37 @@
+i.kb.kb-status-1 {
+  color: #666766;
+}
+i.kb.kb-status-2 {
+  font-size: 12pt !important;
+}
+i.kb.kb-status-2,
+i.kb.kb-status-5,
+i.kb.kb-status-6 {
+  color: #088bbf;
+}
+i.kb.kb-status-3,
+i.kb.kb-status-7 {
+  color: #8cc640;
+}
+i.kb.kb-status-4 {
+  color: #f7941e;
+}
+i.kb.kb-1x {
+  font-size: 12pt;
+}
+i.kb.kb-2x {
+  font-size: 24pt;
+}
+i.kb.kb-3x {
+  font-size: 36pt;
+}
+i.kb.kb-4x {
+  font-size: 48pt;
+}
+i.kb.kb-5x {
+  font-size: 60pt;
+}
+.kb.kb-kwh-price,
+.kb-kwh-price-alt {
+  margin-left: 8px;
+}

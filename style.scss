@@ -1,0 +1,310 @@
+@import "variables";
+
+@font-face {
+    font-family: 'kickback-icons';
+    src:
+        url('#{$icomoon-font-path}/kickback-icons.ttf?7ql0yk') format('truetype'),
+        url('#{$icomoon-font-path}/kickback-icons.woff?7ql0yk') format('woff'),
+        url('#{$icomoon-font-path}/kickback-icons.svg?7ql0yk#kickback-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.kb {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'kickback-icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.kb-email {
+    &:before {
+        content: $kb-email;
+    }
+}
+.kb-at {
+    &:before {
+        content: $kb-at;
+    }
+}
+.kb-anycloud {
+    &:before {
+        content: $kb-anycloud;
+    }
+}
+.kb-cloud {
+    &:before {
+        content: $kb-cloud;
+    }
+}
+.kb-laptop {
+    &:before {
+        content: $kb-laptop;
+    }
+}
+.kb-av-udstyr {
+    &:before {
+        content: $kb-av-udstyr;
+    }
+}
+.kb-printer {
+    &:before {
+        content: $kb-printer;
+    }
+}
+.kb-klimaskrm {
+    &:before {
+        content: $kb-klimaskrm;
+    }
+}
+.kb-climaetscreen {
+    &:before {
+        content: $kb-climaetscreen;
+    }
+}
+.kb-belysning {
+    &:before {
+        content: $kb-belysning;
+    }
+}
+.kb-it-analysis {
+    &:before {
+        content: $kb-it-analysis;
+    }
+}
+.kb-it_analysis {
+    &:before {
+        content: $kb-it_analysis;
+    }
+}
+.kb-vm {
+    &:before {
+        content: $kb-vm;
+    }
+}
+.kb-util-ratio {
+    &:before {
+        content: $kb-util-ratio;
+    }
+}
+.kb-util_ratio {
+    &:before {
+        content: $kb-util_ratio;
+    }
+}
+.kb-utilization_ratio {
+    &:before {
+        content: $kb-utilization_ratio;
+    }
+}
+.kb-utilization-ratio {
+    &:before {
+        content: $kb-utilization-ratio;
+    }
+}
+.kb-kwh-price {
+    &:before {
+        content: $kb-kwh-price;
+    }
+}
+.kb-vm-expansion {
+    &:before {
+        content: $kb-vm-expansion;
+    }
+}
+.kb-network-expansion {
+    &:before {
+        content: $kb-network-expansion;
+    }
+}
+.kb-storage-expansion {
+    &:before {
+        content: $kb-storage-expansion;
+    }
+}
+.kb-server-expansion {
+    &:before {
+        content: $kb-server-expansion;
+    }
+}
+.kb-status-2 {
+    &:before {
+        content: $kb-status-2;
+    }
+}
+.kb-status-3 {
+    &:before {
+        content: $kb-status-3;
+    }
+}
+.kb-status-4 {
+    &:before {
+        content: $kb-status-4;
+    }
+}
+.kb-status-5 {
+    &:before {
+        content: $kb-status-5;
+    }
+}
+.kb-status-6 {
+    &:before {
+        content: $kb-status-6;
+    }
+}
+.kb-status-7 {
+    &:before {
+        content: $kb-status-7;
+    }
+}
+.kb-status-1 {
+    &:before {
+        content: $kb-status-1;
+    }
+}
+.kb-admin {
+    &:before {
+        content: $kb-admin;
+    }
+}
+.kb-certificate {
+    &:before {
+        content: $kb-certificate;
+    }
+}
+.kb-chart-arrow-down {
+    &:before {
+        content: $kb-chart-arrow-down;
+    }
+}
+.kb-co2-cloud .path1 {
+    &:before {
+        content: $kb-co2-cloud-path1;    
+        color: rgb(0, 0, 0);
+    }
+}
+.kb-co2-cloud .path2 {
+    &:before {
+        content: $kb-co2-cloud-path2;    
+        margin-left: -1em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.kb-co2-cloud .path3 {
+    &:before {
+        content: $kb-co2-cloud-path3;    
+        margin-left: -1em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.kb-co2-cloud .path4 {
+    &:before {
+        content: $kb-co2-cloud-path4;    
+        margin-left: -1em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.kb-dashboard {
+    &:before {
+        content: $kb-dashboard;
+    }
+}
+.kb-datacenter {
+    &:before {
+        content: $kb-datacenter;
+    }
+}
+.kb-energiledelse {
+    &:before {
+        content: $kb-energiledelse;
+    }
+}
+.kb-eoptimo-fee {
+    &:before {
+        content: $kb-eoptimo-fee;
+    }
+}
+.kb-feedback {
+    &:before {
+        content: $kb-feedback;
+    }
+}
+.kb-generic {
+    &:before {
+        content: $kb-generic;
+    }
+}
+.kb-inbox {
+    &:before {
+        content: $kb-inbox;
+    }
+}
+.kb-investment {
+    &:before {
+        content: $kb-investment;
+    }
+}
+.kb-logo {
+    &:before {
+        content: $kb-logo;
+    }
+}
+.kb-kickback-rate {
+    &:before {
+        content: $kb-kickback-rate;
+    }
+}
+.kb-network {
+    &:before {
+        content: $kb-network;
+    }
+}
+.kb-server {
+    &:before {
+        content: $kb-server;
+    }
+}
+.kb-settings {
+    &:before {
+        content: $kb-settings;
+    }
+}
+.kb-cooling {
+    &:before {
+        content: $kb-cooling;
+    }
+}
+.kb-kl {
+    &:before {
+        content: $kb-kl;
+    }
+}
+.kb-storage {
+    &:before {
+        content: $kb-storage;
+    }
+}
+.kb-ups {
+    &:before {
+        content: $kb-ups;
+    }
+}
+.kb-ups-overhead {
+    &:before {
+        content: $kb-ups-overhead;
+    }
+}
+.kb-ups_overhead {
+    &:before {
+        content: $kb-ups_overhead;
+    }
+}
+

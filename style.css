@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'kickback-icons';
+    src:
+        url('fonts/kickback-icons.ttf?7ql0yk') format('truetype'),
+        url('fonts/kickback-icons.woff?7ql0yk') format('woff'),
+        url('fonts/kickback-icons.svg?7ql0yk#kickback-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.kb {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'kickback-icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.kb-email:before {
+    content: "\e923";
+}
+.kb-at:before {
+    content: "\e923";
+}
+.kb-anycloud:before {
+    content: "\e922";
+}
+.kb-cloud:before {
+    content: "\e922";
+}
+.kb-laptop:before {
+    content: "\e921";
+}
+.kb-av-udstyr:before {
+    content: "\e920";
+}
+.kb-printer:before {
+    content: "\e91f";
+}
+.kb-klimaskrm:before {
+    content: "\e91b";
+}
+.kb-climaetscreen:before {
+    content: "\e91b";
+}
+.kb-belysning:before {
+    content: "\e918";
+}
+.kb-it-analysis:before {
+    content: "\e914";
+}
+.kb-it_analysis:before {
+    content: "\e914";
+}
+.kb-vm:before {
+    content: "\e912";
+}
+.kb-util-ratio:before {
+    content: "\e911";
+}
+.kb-util_ratio:before {
+    content: "\e911";
+}
+.kb-utilization_ratio:before {
+    content: "\e911";
+}
+.kb-utilization-ratio:before {
+    content: "\e911";
+}
+.kb-kwh-price:before {
+    content: "\e931";
+}
+.kb-vm-expansion:before {
+    content: "\e932";
+}
+.kb-network-expansion:before {
+    content: "\e933";
+}
+.kb-storage-expansion:before {
+    content: "\e934";
+}
+.kb-server-expansion:before {
+    content: "\e935";
+}
+.kb-status-2:before {
+    content: "\e904";
+}
+.kb-status-3:before {
+    content: "\e905";
+}
+.kb-status-4:before {
+    content: "\e906";
+}
+.kb-status-5:before {
+    content: "\e915";
+}
+.kb-status-6:before {
+    content: "\e91c";
+}
+.kb-status-7:before {
+    content: "\e91d";
+}
+.kb-status-1:before {
+    content: "\e91e";
+}
+.kb-admin:before {
+    content: "\e900";
+}
+.kb-certificate:before {
+    content: "\e901";
+}
+.kb-chart-arrow-down:before {
+    content: "\e902";
+}
+.kb-co2-cloud .path1:before {
+    content: "\1f5f5";
+    color: rgb(0, 0, 0);
+}
+.kb-co2-cloud .path2:before {
+    content: "\1f5f6";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kb-co2-cloud .path3:before {
+    content: "\1f5f7";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kb-co2-cloud .path4:before {
+    content: "\1f5f8";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.kb-dashboard:before {
+    content: "\e907";
+}
+.kb-datacenter:before {
+    content: "\e908";
+}
+.kb-energiledelse:before {
+    content: "\e909";
+}
+.kb-eoptimo-fee:before {
+    content: "\e90a";
+}
+.kb-feedback:before {
+    content: "\e90b";
+}
+.kb-generic:before {
+    content: "\e90c";
+}
+.kb-inbox:before {
+    content: "\e90d";
+}
+.kb-investment:before {
+    content: "\e90e";
+}
+.kb-logo:before {
+    content: "\e90f";
+}
+.kb-kickback-rate:before {
+    content: "\e910";
+}
+.kb-network:before {
+    content: "\e913";
+}
+.kb-server:before {
+    content: "\e903";
+}
+.kb-settings:before {
+    content: "\e916";
+}
+.kb-cooling:before {
+    content: "\e917";
+}
+.kb-kl:before {
+    content: "\e917";
+}
+.kb-storage:before {
+    content: "\e919";
+}
+.kb-ups:before {
+    content: "\e91a";
+}
+.kb-ups-overhead:before {
+    content: "\e91a";
+}
+.kb-ups_overhead:before {
+    content: "\e91a";
+}
+
